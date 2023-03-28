@@ -1,0 +1,11 @@
+The Payroll Management Program is a C++ based system that manages the payroll of employees. The program consists of two classes, namely the Employee class and the Payroll class. The Employee class stores the basic information of the employee, including their name, employee ID, scale, and working hours. The Payroll class calculates the employee's net pay, gross pay, and other relevant information based on the employee's data.
+
+The program begins by defining the Employee class and the Payroll class. The Employee class has four private member variables, including name, employee ID, scale, and working hours. The class also includes public member functions to set and get these variables.
+
+The Payroll class has five private member variables, including the Employee object, basic pay, overtime pay, gross pay, and net pay. The class includes public member functions to set and get these variables. Additionally, it includes methods to calculate the basic pay, overtime pay, gross pay, and net pay based on the employee's information.
+
+The program then creates an object of the Employee class and sets its attributes using the setter methods. An object of the Payroll class is created, and its Employee object is set using the setter method. The necessary methods are called to calculate the basic pay, overtime pay, gross pay, and net pay.
+
+Finally, the program displays the necessary results using the getter methods of the Employee and Payroll classes. The results include the employee's name, employee ID, scale, and working hours, along with the calculated basic pay, overtime pay, gross pay, and net pay.
+
+In conclusion, the Payroll Management Program is an effective tool for managing employee payroll. The program's ability to calculate the necessary data based on the employee's information helps automate the payroll management process and improves efficiency.
